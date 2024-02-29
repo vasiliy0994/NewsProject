@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Добавление новости :: {{ block.super }}
+{% endblock %}
+
+{% block sidebar %}
+{% include 'inc/_sidebar.html' %}
+{% endblock %}
+
+{% block content %}
+{% for name in page_obj.object_list %}
+<p>{{ name }}</p>
+{% endfor %}
+
+{% endblock %}

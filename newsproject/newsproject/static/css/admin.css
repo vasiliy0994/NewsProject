@@ -1,0 +1,8 @@
+#header .module h1, .module caption, .inline-group h2 {
+    background: #008B8B;
+    color: #00008B;
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a: visited {
+    color: #008B8B;
+}

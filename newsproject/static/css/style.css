@@ -1,0 +1,11 @@
+body {
+    background-color: #ccc;
+}
+
+.error list {
+    color: red;
+}
+
+form .cat-form p {
+    border-radius: 10px;
+}
